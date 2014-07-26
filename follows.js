@@ -15,7 +15,7 @@
 	var defaultKey		= 'chU8HEWjyedQ3OwSPlOA639rQ7KcFsiPlTz1A3fIkaawRIBe', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1374874100] // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'OneEyeBrewing', // Replaces Xively logo in the header
-		dataDuration	= '7days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataDuration	= '1week', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 10, // Default interval for data to be displayed (in seconds)
 		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
